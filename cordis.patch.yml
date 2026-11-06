@@ -1,0 +1,5 @@
+# dsh-install-proxy — bundle patch：把设置页插件挂进 profile 的插件树。
+# 卸载 = 从 profile package.json 里去掉依赖（或 dsh plugin remove），本补丁随包走。
+- insert:
+    - id: install-proxy
+      name: 'dsh-install-proxy'
