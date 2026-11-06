@@ -1,5 +1,7 @@
 # dsh-install-proxy
 
+**English** | [简体中文](README.zh.md)
+
 Proxy switch for the DSH plugin install chain. Fill in a proxy in Settings, save, and `pnpm` / `git` use it on their next run. No DSH restart needed.
 
 It only covers plugin installation: pnpm/npm, `git clone`, GitHub tarballs. DSH's own model traffic and `web_fetch` go through the built-in `dsh-http-proxy` and are not affected.

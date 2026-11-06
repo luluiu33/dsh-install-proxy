@@ -1,5 +1,7 @@
 # dsh-install-proxy
 
+[English](README.md) | **简体中文**
+
 DSH 插件安装链路的代理开关。在设置页填好代理地址保存，`pnpm` / `git` 下次运行就走代理，不用重启 DSH。
 
 只管插件安装：pnpm/npm、`git clone`、GitHub tarball。DSH 自己的模型请求和 `web_fetch` 走内核的 `dsh-http-proxy`，这里不碰。
